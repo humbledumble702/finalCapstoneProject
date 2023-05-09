@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  background-color: #333333;
+  height: 151.67vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav>a>img {
+  width: 148px;
+  height: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav {
+  background-color: #1E1E1E;
+  color: #ffffff;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 11.1875rem;
+  padding: 0 18.125rem;
+}
+
+.nav a {
+  color: inherit;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  font-size: 12px;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
   align-items: center;
+  padding: .25rem;
+}
+
+.nav li.active {
+  background-color: #F4CE14;
+}
+
+.nav li:hover {
+  background-color: #F4CE14;
+  color: #1E1E1E;
+}
+
+.banner {
+  padding-top: 10px;
+  background-color: #495E57;
+  color: #ffffff;
+  display: flex;
+  gap: 25.1875rem;
+  padding: 37px 18.125rem;
+}
+
+.banner img {
+  width: 300px;
+  height: 350px;
+  border-radius: 20px;
+}
+
+article>h1 {
+  font-size: 53px;
+  color: #F4CE14;
+  padding-bottom: 30px;
+}
+
+article>p {
+  padding-bottom: 30px;
+}
+
+button {
+  padding: 14px 15px;
+  border-radius: 12px;
+  background-color: #F4CE14;
+  border-style: none;
+  cursor: pointer;
+}
+
+.nav_header {
+  display: flex;
+  gap: 47.1875rem;
+  padding: 37px 17.47rem;
+}
+
+.nav_header>h2 {
+  color: #ffffff;
+}
+
+.cardOfThree {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+  background-color: red;
+  width: 271px;
+  height: 400px;
+  margin: 24px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cardOfThree>.card>.cardImage {
+  background-color: aqua;
+  height: 150px;
+  margin-bottom: 40px;
+}
+
+.cardImage1 {
+  background-image: url("./icons_assets/lemon\ dessert.jpg");
 }
