@@ -41,19 +41,50 @@ function App() {
             <div className='card'>
               <div className="cardImage image1"></div>
               <h2>lemon dessert</h2>
-              <p>bgtdbbrs</p>
+              <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                <div className='orderingDelivery'>
+                  <p>Order a delivery</p>
+                  <button>+1</button>
+                </div>
             </div>
             <div className='card'>
               <div className="cardImage image2"></div>
               <h2>greek salad</h2>
-              <p>at5gt5e4wdf</p>
+              <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+              <div className='orderingDelivery'>
+                  <p>Order a delivery</p>
+                  <button>+1</button>
+                </div>
             </div>
             <div className='card'>
               <div className="cardImage image3"></div>
               <h2>burger</h2>
-              <p>awfega</p>
+              <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+              <div className='orderingDelivery'>
+                  <p>Order a delivery</p>
+                  <button>+1</button>
+                </div>
             </div>
           </section>
+      </section>
+
+      <section className='tintForNewBanner'>
+        <div className="box box1">
+          <h3>rating</h3>
+          <p>"I had an amazing experience at this restaurant. The food was delicious and the service was top-notch"</p>
+        </div>
+        <div className="box box2">
+          <h3>rating</h3>
+          <p>"The atmosphere was perfect for a romantic dinner. I highly recommend this place."</p>
+        </div>
+        <div className="box box3">
+          <h3>rating</h3>
+          <p>"I was impressed by the variety of dishes on the menu. Everything we ordered was cooked to perfection."</p>
+        </div>
+        <div className="box box4">
+          <h3>rating</h3>
+          <p>"This restaurant exceeded my expectations. The staff was friendly and attentive, and the food was out of this world.”</p>
+        </div>
       </section>
     </main>
   </>

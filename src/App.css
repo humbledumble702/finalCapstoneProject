@@ -7,7 +7,7 @@
 body {
   margin: 0;
   background-color: #333333;
-  height: 151.67vh;
+  height: 300.67vh;
 }
 
 .nav>a>img {
@@ -58,10 +58,11 @@ body {
 
 .banner {
   padding-top: 10px;
+  height: 475px;
   background-color: #495E57;
   color: #ffffff;
   display: flex;
-  gap: 25.1875rem;
+  gap: 17.1875rem;
   padding: 37px 18.125rem;
 }
 
@@ -90,8 +91,9 @@ button {
 }
 
 .nav_header {
+  margin-top: 141px;
   display: flex;
-  gap: 47.1875rem;
+  gap: 41rem;
   padding: 37px 17.47rem;
 }
 
@@ -105,11 +107,20 @@ button {
 }
 
 .card {
-  background-color: red;
+  background-color: #EDEFEE;
   width: 271px;
   height: 400px;
   margin: 24px;
   border-radius: 20px;
+}
+
+.orderingDelivery>p {
+  font-weight: bold;
+}
+
+.orderingDelivery {
+  display: flex;
+  justify-content: space-between;
 }
 
 .cardOfThree>.card>.cardImage {
@@ -131,4 +142,41 @@ button {
 .cardImage.image3 {
   background-image: url("./icons_assets/amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg");
 
+}
+
+.tintForNewBanner {
+  background-color: #495E57;
+  margin-top: 141px;
+  height: 622px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 200px;
+
+}
+
+.box {
+  height: 200px;
+  height: 400px;
+  border-radius: 20px;
+  background-color: red;
+  color: white;
+}
+
+.box.box1 {
+  background-image: url("./testimonai-images/ion-fet-5y9EyNvTya8-unsplash.jpg");
+  background-size: cover;
+  
+}
+.box.box2 {
+  background-image: url("./testimonai-images/austin-wade-X6Uj51n5CE8-unsplash.jpg");
+  background-size: cover;
+}
+.box.box3 {
+  background-image: url("./testimonai-images/michael-dam-mEZ3PoFGs_k-unsplash.jpg");
+  background-size: cover;
+}
+.box.box4 {
+  background-image: url("./testimonai-images/toni-koraza-r_VLi4NDa9c-unsplash.jpg");
+  background-size: cover;
 }
