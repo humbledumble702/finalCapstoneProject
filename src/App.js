@@ -30,7 +30,7 @@ function App() {
           <p>Lorem ipsum dolor sit amet consectetur aing elit.br<br></br> Vero, dolore ut nam<br></br>tempore a quaerat eveniet<br></br> earum illo quia repellat eos culpa <br></br>veritatis ducimus soluta. Dicta, iusto.</p>
           <button className='button' type=''>start free trial</button>
         </article>
-        <img src={banner} alt="banner image" />
+        <img src={banner} alt=" "/>
       </section>
       <section className='banner2'>
         <div className='nav_header'>

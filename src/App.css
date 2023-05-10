@@ -109,14 +109,26 @@ button {
   width: 271px;
   height: 400px;
   margin: 24px;
+  border-radius: 20px;
 }
 
 .cardOfThree>.card>.cardImage {
   background-color: aqua;
-  height: 150px;
+  height:200px;
   margin-bottom: 40px;
+  background-size: cover;
+  border-radius: 20px;
 }
 
-.cardImage1 {
+.cardImage.image1 {
   background-image: url("./icons_assets/lemon\ dessert.jpg");
+}
+
+.cardImage.image2 {
+  background-image: url("./icons_assets/greek\ salad.jpg");
+}
+
+.cardImage.image3 {
+  background-image: url("./icons_assets/amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg");
+
 }
