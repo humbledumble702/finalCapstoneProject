@@ -20,9 +20,7 @@ body {
   color: #ffffff;
   display: flex;
   justify-content: space-between;
-  align-items: stretch;
-  gap: 11.1875rem;
-  padding: 0 18.125rem;
+  padding: 0 15% 0;
 }
 
 .nav a {
@@ -67,8 +65,7 @@ body {
 }
 
 .banner img {
-  width: 300px;
-  height: 350px;
+
   border-radius: 20px;
 }
 
