@@ -1,25 +1,30 @@
+import React, { useState } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Menu from "./components/Menu";
 import About from "./components/About";
-import Home from "./components/Home";
-import Reservations from "./components/Reservations";
+import BookingPage from "./components/BookingPage";
 import OrderOnline from "./components/OrderOnline";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
+  const [availableTimes, setAvailableTimes] = useState()
+
+
+
   return (
     <>
-      <Navbar />
       <div className="container">
+        <Navbar />
+
         <Routes>
-          
           <Route path="/about" element={<About />} />
           <Route path="/menu" element={<Menu />} />
-          <Route path="/reservations" element={<Reservations />} />
-          <Route path="/order online" element={<OrderOnline />} />
+          <Route path="/reservations" element={<BookingPage />} />
+          <Route path="/order-online" element={<OrderOnline />} />
         </Routes>
       </div>
+
 
       <main>
         <section className="banner">
@@ -36,7 +41,10 @@ function App() {
               start free trial
             </button>
           </article>
-          <img src={require("./icons_assets/d53d7e068df24dfe82c1893a8f3167f3.jpg")} alt=" " />
+          <img
+            src={require("./icons_assets/d53d7e068df24dfe82c1893a8f3167f3.jpg")}
+            alt=" "
+          />
         </section>
         <section className="banner2">
           <div className="nav_header">
